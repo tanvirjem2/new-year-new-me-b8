@@ -7,7 +7,7 @@
 
 header {
     background-image: url("./images/banner/banner1.png");
-    height: 100vh;
+    height: 808px;
     text-align: right;
 }
 
@@ -45,4 +45,58 @@ header p {
     background-color: #F15B22;
     padding: 21px 25px 20px 26px;
     border: none;
+}
+
+/* failure section */
+
+.my-failure-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    gap: 105px;
+}
+
+
+
+.point {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 8px;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 16px;
+    /* 162.5% */
+}
+
+/* My plan section */
+.my-plan-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.my-plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 55px;
+}
+
+.my-plan {
+    text-align: center;
 }
