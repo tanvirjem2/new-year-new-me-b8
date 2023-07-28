@@ -7,6 +7,8 @@
 
 header {
     background-image: url("./images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 808px;
     text-align: right;
 }
@@ -99,4 +101,52 @@ header p {
 
 .my-plan {
     text-align: center;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* mindset container */
+
+.mindset-container {
+    background-image: url("./images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 140px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.mindset {
+    padding-top: 59px;
+    padding-left: 295px;
+}
+
+.mindset-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.btn-2 {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding: 20px 35px;
 }
