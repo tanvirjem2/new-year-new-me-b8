@@ -120,12 +120,15 @@ header p {
 /* mindset container */
 
 .mindset-container {
-    background-image: url("./images/watch.png");
+    /* background-image: url("./images/watch.png"); */
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 140px;
     height: 300px;
     border-radius: 8px;
+    width: 80%;
+    margin: 130px auto;
+    background-image: linear-gradient(#F15B22, #F15B2200), url("./images/watch.png");
 }
 
 .mindset {
@@ -154,7 +157,6 @@ header p {
 /* footer section */
 footer {
     background-color: #151414;
-    margin-top: 130px;
     display: flex;
     align-items: center;
     justify-content: space-around;
